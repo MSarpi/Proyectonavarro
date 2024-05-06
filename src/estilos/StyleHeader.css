@@ -1,0 +1,60 @@
+.header{
+    height: 100vh; background-image: url(../../public/img/header-img.jpg); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat;
+}
+
+.container-creaciones-navarro{
+    height: 100%;
+}
+
+.span-creaciones-navarro{
+    color: #bbb;
+}
+
+.strong-btn-creaciones-navarro{
+    font-size: 1.3rem;
+}
+
+.ref-creaciones-navarro{
+    color: #4e4e4e; margin-right: 1rem;
+}
+
+.header_part1{
+    top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.4); height: 100vh;
+}
+
+
+
+.text-decoration{
+    background: linear-gradient(to right, #770606, #b81717);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+@media (max-width:1400px) {}
+
+@media (max-width:1200px) 
+    {.whatsapp {width: 85%;}}
+@media (min-width:1200px) 
+    {.contenedor2 {width: 84%;}}
+@media (max-width:992px) 
+    {.navbar-collapse {text-align: center; background-color: rgba(0, 0, 0, 0.76); border-radius: 0rem 0rem 1rem 1rem;}
+    .whatsapp {width: 100%;}}
+@media (max-width:768px) 
+    {
+     .columna1 {width: 100%;height: 300px;}
+     .columna2 {width: 100%;height: 300px;margin-top: 1.6rem;}
+     .wapp {margin-bottom: 1.5rem;}.h1 {width: 100%;margin-bottom: 1.5rem;}
+     .num1 {text-align: center;margin-left: 0rem;}
+     .whatsapp {width: 90%;}
+    }
+@media (max-width:576px) 
+    {
+        .contenedor2 {padding-right: 1rem; padding-left: 1rem;}
+        .wapp {height: 280px;width: 85%;}
+        .sep1 {display: none;}
+        .whatsapp {width: 100%;}
+        .wapp2 {display: flex;flex-direction: column;align-items: center;}
+        .chat1 {padding: 2rem 0.5rem 0 0;}.chat2 {padding: 2rem 0 0 0.5rem;}}
+@media (max-width:325px) {.wapp {width: 100%;}.chat1 {padding: 2rem 0rem 0 2rem;max-width: 95%;}.chat2 {padding: 2rem 0.2rem 0 0.5rem;max-width: 95%;}.num1 {padding-top: 1.5rem;}}
