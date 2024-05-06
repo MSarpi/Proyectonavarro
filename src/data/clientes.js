@@ -1,22 +1,22 @@
 const clientes = [
     {
-        img: "logo-mq",
+        img: "logomq",
         id:1
       },
       {
-        img: "logo-cbre",
+        img: "logocbre",
         id: 2
       },
       {
-        img: "logo-kitchen-center",
+        img: "logokitchencenter",
         id: 3
       },
       {
-        img: "logo-sendero",
+        img: "logosendero",
         id: 4
       },
       {
-        img: "logo-zocalo",
+        img: "logozocalo",
         id: 5
       }
 ]
